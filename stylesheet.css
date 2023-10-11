@@ -7,18 +7,19 @@ body{
 }
 .text{
     font-family: "Work Sans", sans-serif;
-    font-size: 45px;
-    border-bottom: 4px double;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 .container{
     display: flex;
-    flex-flow: wrap;
-    justify-content: left;
+    flex-direction: column;
+    /* flex-flow: wrap;
+    justify-content: left; */
 }
-.h1{
+.title{
     font-family: "Work Sans", sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 300;
+    color: rgb(255, 255, 255);
 }
