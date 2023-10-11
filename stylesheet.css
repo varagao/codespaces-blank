@@ -15,15 +15,9 @@ body{
     flex-flow: wrap;
     justify-content: center;
 }
-.card:hover {
-    transform: rotateY(180deg);
-}
-.card{
-    width: 270px;
-    height: 270px;
-    margin: 12px;
-    position: relative;
-    perspective: 1000px;
-    transition: all 500ms ease-in-out;
-    transform-style: preserve-3d;
+.h1{
+    font-family: "Work Sans", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 300;
 }
