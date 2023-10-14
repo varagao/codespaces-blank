@@ -4,14 +4,15 @@ body{
     width: 100%;
     height: 100vh;
     background-color: rgb(252, 252, 252);
-	padding-left: 48px;
-	padding-top: 48px;
  /* background-color: rgb(201, 130, 255); */
 
 }
 .container{
     display: flex;
     flex-direction: column;
+	padding-left: 48px;
+	padding-top: 48px;
+	background-color: rgb(161, 230, 235);
     /* flex-flow: wrap;
     justify-content: left; */
 }
