@@ -3,25 +3,95 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Okamoto Construtora</title>
-		<link rel="stylesheet" href="stylesheet.css">
+		<!-- <link rel="stylesheet" href="stylesheet.css"> -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	</head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		.page {
+			width: 100vw;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			/* background-color: rgb(148, 121, 168); */
+		}
+		.header{
+			width: 100vw;
+			height: 50%;
+			/* background-color: rgb(161, 230, 235); */
+			display: flex;
+			flex-direction: column;
+			align-items:flex-start;
+			justify-content: left;
+			padding-top: 24px;
+			padding-left: 32px;
+			position:top, absolute;
+		}
+		.title{
+			margin-top: 0;
+			font-family: "Libre Franklin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 700;
+			font-style: normal;
+			font-size: 1.25rem;
+			letter-spacing: 1px;
+			color:black;
+		}
+		.text{
+			margin-top: 0;
+			font-family: "Libre Franklin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 200;
+			font-style: normal;
+			font-size: 1.1rem;
+			line-height: 1.5;
+			letter-spacing: 1.2px;
+
+
+			color:black;
+		}
+		.a {
+			margin-top: 0;
+			font-family: "Libre Franklin", sans-serif;
+			font-optical-sizing: auto;
+			font-weight: 200;
+			font-style: normal;
+			font-size: 1.15rem;
+			line-height: 1.5;
+			color:black;
+			text-decoration: none;
+		}
+		.footer {
+			width: 100vw;
+			height: 50%;
+			display: flex;
+			align-items: end;
+			padding: 24px;
+			/* background-color: rgb(161, 112, 52); */
+			position: absolute;
+			bottom: 0;
+		}
+	</style>
 	<body>
-		<div class="container">
-			<div>
-				<p>
-					<h1 class="title">okamoto construtora</h1>
-				</p>    
-			</div>
-			<div>
+		<div class="page">
+			<div class="header">
+				<h1 class="title">Okamoto Construtora</h1>
 				<p class="text">
-					Rua Armando Penteado 382<br>
-					São Paulo SP<br>
-					01242 010 <br>
-					<br>
-					relacionamento2@okamotoconstrutora.com.br <br>
+					Rua Armando Penteado, 382<br>
+					São Paulo SP — 01242 010 <br>
+					<a href="mailto:relacionamento2@okamotoconstrutora.com.br">e-mail</a><br>
 					(11) 97798 1249 <br>
-				</p>   
 			</div>  
+			<div class="footer">
+				<img src="okamoto-lilas.png" alt="okamoto logo">
+			</div>
 		</div>
 	</body>
 </html>
