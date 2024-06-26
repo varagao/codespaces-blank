@@ -20,10 +20,10 @@
 			padding: 0;
 			display: flex;
 			flex-direction: column;
-			/* background-color: rgb(148, 121, 168); */
+			background-color: rgb(148, 121, 168); */
 		}
 		.header{
-			width: 100vw;
+			width: 100%;
 			height: 50%;
 			/* background-color: rgb(161, 230, 235); */
 			display: flex;
@@ -40,7 +40,7 @@
 			font-optical-sizing: auto;
 			font-weight: 700;
 			font-style: normal;
-			font-size: 1.25rem;
+			font-size: 1.25em;
 			letter-spacing: 1px;
 			color:black;
 		}
@@ -53,8 +53,6 @@
 			font-size: 1.1rem;
 			line-height: 1.5;
 			letter-spacing: 1.2px;
-
-
 			color:black;
 		}
 		.a {
@@ -69,14 +67,18 @@
 			text-decoration: none;
 		}
 		.footer {
-			width: 100vw;
+			width: 100%;
 			height: 50%;
 			display: flex;
 			align-items: end;
-			padding: 24px;
-			/* background-color: rgb(161, 112, 52); */
+			padding: 0px;
+			background-color: rgb(161, 112, 52); */
 			position: absolute;
 			bottom: 0;
+		}
+		#logo-big{
+			max-width: 90%;
+			height: auto;
 		}
 	</style>
 	<body>
@@ -90,8 +92,9 @@
 					(11) 97798 1249 <br>
 			</div>  
 			<div class="footer">
-				<img src="okamoto-lilas.png" alt="okamoto logo">
+				<img id="logo-big" src="okamoto-lilas.png" alt="okamoto logo">
 			</div>
 		</div>
 	</body>
 </html>
+
